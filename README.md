@@ -24,6 +24,23 @@ A sandboxed network provides an essential learning environment and platform, off
 ![image](https://github.com/user-attachments/assets/d44a832a-fec5-4227-9b84-6d14fc37cad9)
 
 ### Now go to the Terminal then ping the address and getway to see its working or not.
-
+#### command ping 192.168.12.1
+#### command ping 192.168.12.2
 
 ![image](https://github.com/user-attachments/assets/20db062a-8c4a-4f3c-b15f-81e750658d5e)
+
+# 2. bitnami
+### Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network
+###                                                          Name: intent
+
+![image](https://github.com/user-attachments/assets/f648e698-0277-47aa-a651-2edb94cc8cc3)
+
+### Assign IP address
+#### command sudo nano /etc/network/interfaces
+
+![image](https://github.com/user-attachments/assets/c8991264-f55b-451a-a40b-1b5f36b40a57)
+
+### Ping the address and getway to see its working or not.
+
+![image](https://github.com/user-attachments/assets/bac236e1-5a74-461c-9461-312cdb3112c9)
+
