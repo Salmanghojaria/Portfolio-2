@@ -6,7 +6,7 @@ A sandboxed network provides an essential learning environment and platform, off
 ### Ubuntu Server for Getway-Router :- https://ubuntu.com/download/server
 ### bitnami :- https://bitnami.com/stacks/virtual-machine
 
-# Ubuntu Desktop 24
+# 1. Ubuntu Desktop 24
 ### Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network
 ###                                                          Name: intent
 
@@ -19,6 +19,11 @@ A sandboxed network provides an essential learning environment and platform, off
 
 ### Go to the wired section then click to setting then select IPv4
 ### In IPv4 Method click to Manual
-### Addresses assign Address, Netmast, Gateway
+### Addresses assign Address, Netmask, Gateway
+
 ![image](https://github.com/user-attachments/assets/d44a832a-fec5-4227-9b84-6d14fc37cad9)
 
+### Now go to the Terminal then ping the address and getway to see its working or not.
+
+
+![image](https://github.com/user-attachments/assets/20db062a-8c4a-4f3c-b15f-81e750658d5e)
