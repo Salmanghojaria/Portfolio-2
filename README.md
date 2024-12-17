@@ -57,6 +57,11 @@ A sandboxed network provides an essential learning environment and platform, off
 
 <img width="622" alt="image" src="https://github.com/user-attachments/assets/b7f67426-e887-4c12-ad54-cd256cdca3e3" />
 
+## Network setting in Getway-Router
+#### command sudo nano /etc/netplan/50-cloud-init.yaml
+
+![image](https://github.com/user-attachments/assets/7d598455-9a6d-4f67-81c1-5464bc8eb47f)
+
 ### Ping the address and getway to see its working or not.
 #### command ping 192.168.12.1
 #### command ping 192.168.12.2
