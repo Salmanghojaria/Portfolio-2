@@ -4,12 +4,10 @@ A sandboxed network provides an essential learning environment and platform, off
 # Tools
 ### Ubuntu Desktop 24 :- https://ubuntu.com/desktop
 ### Ubuntu Server for Getway-Router :- https://ubuntu.com/download/server
-### bitnami :- https://bitnami.com/stacks/virtual-machine
+### Bitnami :- https://bitnami.com/stacks/virtual-machine
 
 # 1. Ubuntu Desktop 24
-### Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network
-###                                                          Name: intent
-
+### Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network Name: intent
 
 ![image](https://github.com/user-attachments/assets/2700b597-e499-4d89-bc6c-7522f9483413)
 
@@ -30,8 +28,7 @@ A sandboxed network provides an essential learning environment and platform, off
 ![image](https://github.com/user-attachments/assets/20db062a-8c4a-4f3c-b15f-81e750658d5e)
 
 # 2. Bitnami
-### Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network
-###                                                          Name: intent
+### Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network Name: intent 
 
 ![image](https://github.com/user-attachments/assets/f648e698-0277-47aa-a651-2edb94cc8cc3)
 
@@ -41,6 +38,29 @@ A sandboxed network provides an essential learning environment and platform, off
 ![image](https://github.com/user-attachments/assets/c8991264-f55b-451a-a40b-1b5f36b40a57)
 
 ### Ping the address and getway to see its working or not.
-
+#### command ping 192.168.112.1
+#### command ping 192.168.112.2
 ![image](https://github.com/user-attachments/assets/bac236e1-5a74-461c-9461-312cdb3112c9)
 
+# 3. Ubuntu Server for Getway-Router
+### Go to Devices-> Network-> Network Settings->
+
+### Adapter 1-> Attached to: NAT
+
+<img width="623" alt="image" src="https://github.com/user-attachments/assets/fe6a8a37-c9e8-4a30-ae48-2cb360d70d9b" />
+
+### Adapter 2-> Attached to: Internal Network Name: intnet
+
+<img width="622" alt="image" src="https://github.com/user-attachments/assets/e34a2df9-da7f-4604-b640-389918d00605" />
+
+### Adapter 3-> Attached to: Internal Network Name: intnet
+
+<img width="622" alt="image" src="https://github.com/user-attachments/assets/b7f67426-e887-4c12-ad54-cd256cdca3e3" />
+
+### Ping the address and getway to see its working or not.
+#### command ping 192.168.12.1
+#### command ping 192.168.12.2
+#### command ping 192.168.112.1
+#### command ping 192.168.112.2
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/74ba2626-4af2-47dd-ab4f-add5a55ced0e" />
