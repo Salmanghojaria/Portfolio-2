@@ -29,7 +29,7 @@ A sandboxed network provides an essential learning environment and platform, off
 
 ![image](https://github.com/user-attachments/assets/20db062a-8c4a-4f3c-b15f-81e750658d5e)
 
-# 2. bitnami
+# 2. Bitnami
 ### Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network
 ###                                                          Name: intent
 
