@@ -3,7 +3,7 @@
 A sandboxed network provides an essential learning environment and platform, offering a secure, isolated space to simulate real-world network scenarios without introducing risks to live systems. For this Portfolio, you will create your own private sandboxed virtual network using VirtualBox. The network will consist of multiple virtual machines (VMs) configured within a private IP address range. The aim is to gain an applied understanding of networking concepts, IP subnetting, network interface configuration, and a basic server setup, design, planning and organisation strategies.
 # Tools
 ### Ubuntu Desktop 24 :- https://ubuntu.com/desktop
-### Ubuntu Server for Getway-Router :- https://ubuntu.com/download/server
+### Ubuntu Server for Gateway-Router :- https://ubuntu.com/download/server
 ### Bitnami :- https://bitnami.com/stacks/virtual-machine
 
 # 1. Ubuntu Desktop 24
@@ -21,7 +21,7 @@ A sandboxed network provides an essential learning environment and platform, off
 
 ![image](https://github.com/user-attachments/assets/d44a832a-fec5-4227-9b84-6d14fc37cad9)
 
-### Now go to the Terminal then ping the address and getway to see its working or not.
+### Now go to the Terminal then ping the address and gateway to see its working or not.
 #### command ping 192.168.12.1
 #### command ping 192.168.12.2
 
@@ -37,12 +37,12 @@ A sandboxed network provides an essential learning environment and platform, off
 
 ![image](https://github.com/user-attachments/assets/c8991264-f55b-451a-a40b-1b5f36b40a57)
 
-### Ping the address and getway to see its working or not.
+### Ping the address and gateway to see its working or not.
 #### command ping 192.168.112.1
 #### command ping 192.168.112.2
 ![image](https://github.com/user-attachments/assets/bac236e1-5a74-461c-9461-312cdb3112c9)
 
-# 3. Ubuntu Server for Getway-Router
+# 3. Ubuntu Server for Gateway-Router
 ### Go to Devices-> Network-> Network Settings->
 
 ### Adapter 1-> Attached to: NAT
@@ -57,12 +57,12 @@ A sandboxed network provides an essential learning environment and platform, off
 
 <img width="622" alt="image" src="https://github.com/user-attachments/assets/b7f67426-e887-4c12-ad54-cd256cdca3e3" />
 
-## Network setting in Getway-Router
+## Network setting in Gateway-Router
 #### command sudo nano /etc/netplan/50-cloud-init.yaml
 
 ![image](https://github.com/user-attachments/assets/7d598455-9a6d-4f67-81c1-5464bc8eb47f)
 
-### Ping the address and getway to see its working or not.
+### Ping the address and gateway to see its working or not.
 #### command ping 192.168.12.1
 #### command ping 192.168.12.2
 #### command ping 192.168.112.1
